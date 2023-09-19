@@ -21,6 +21,17 @@ header {
   padding-top: 3vw;
 }
 
+.title a > p {
+  font-size: 18px;
+  letter-spacing: normal;
+}
+
+header .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 header h1 {
   padding: 10px 0;
   font-size: 128px;
@@ -40,6 +51,10 @@ header p {
   width: 100%;
 }
 
+.principle-section {
+  margin-top: 3vw;
+}
+
 main ul {
   list-style-type: none;
 }
@@ -53,4 +68,16 @@ a {
   text-decoration: none;
   font-size: 30px;
   font-family: "Mooli", sans-serif;
+}
+
+footer h4 {
+  text-align: center;
+  padding: 5vw 0 8vw;
+  font-family: sans-serif;
+  font-style: italic;
+  opacity: 0.8;
+  font-size: 18px;
+  text-transform: lowercase;
+  line-height: normal;
+  letter-spacing: 1.2px;
 }
